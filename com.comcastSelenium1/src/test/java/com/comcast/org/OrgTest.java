@@ -7,10 +7,10 @@ public class OrgTest {
 	public void createorgTest() {
 	
 	System.out.println("execute createContactTest");
-	String BROWSER=System.getProperty("browser");
-	String ENV=System.getProperty("url");
+	String BROWSER=System.getProperty("chrome");
+	String ENV=System.getProperty("localhost:8888");
 	System.out.println("brower"+ BROWSER);
-	System.out.println("url"+ENV);
+	System.out.println("env"+ENV);
 	
 	
 	}
