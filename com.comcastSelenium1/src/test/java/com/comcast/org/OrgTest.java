@@ -7,6 +7,12 @@ public class OrgTest {
 	public void createorgTest() {
 	
 	System.out.println("execute createContactTest");
+	String BROWSER=System.getProperty("browser");
+	String ENV=System.getProperty("url");
+	System.out.println("brower"+ BROWSER);
+	System.out.println("url"+ENV);
+	
+	
 	}
 @Test(groups="SmokeTest")
 public void createorgWithindustryTest() {
