@@ -21,6 +21,6 @@ public void deleteContactTest() {
 @Test(groups="RegressionTest")
 public void ContactofTest() {
 	System.out.println("execute deleteContactTest");
-
+///
 }
 }
